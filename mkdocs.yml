@@ -1,5 +1,7 @@
-site_name: Template KNW
+site_name: PostgreSQL Bahasa Indonesia
 nav:
   - Home: index.md
   - About: about.md
+  - Subqueries:
+    - "Operator EXISTS": subqueries/operator-exists.md
 theme: readthedocs
