@@ -27,3 +27,26 @@ mkdocs build
 Dokumentasi resmi:
 
 https://www.mkdocs.org/getting-started/
+
+
+## Mengubah Repo Lama ke Repo Baru
+
+Periksa repo lama:
+
+```
+git remote -v
+```
+
+Ubah ke _remote url_ yang baru:
+
+```
+git remote set-url origin https://github.com/username/repo-baru.git
+```
+
+Verifikasi perubahan:
+
+```
+git remote -v
+```
+
+Pastikan sekarang sudah merujuk ke _repository_ yang baru.
